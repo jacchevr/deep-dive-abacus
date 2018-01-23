@@ -1,5 +1,7 @@
 package edu.cnm.deepdive;
 
+import java.util.Arrays;
+
 public class Abacus {
 
   public static void main(String[] args) {
@@ -8,7 +10,9 @@ public class Abacus {
       sum += Double.parseDouble(s);
 
     }
-    System.out.println(sum);
+//    System.out.print("Sum = ")
+//    System.out.println(sum);
+    System.out.printf("Sum of %s = %.3f%n", Arrays.toString(args), sum);
   }
 
 }
